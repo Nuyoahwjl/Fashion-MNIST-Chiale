@@ -20,8 +20,8 @@ FullyConnected       (10,)                850
 ===================================================
 Total params: 61750
 ```
-![](./img/1.png)
-![](./img/2.png)
+![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/1.png)
+![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/2.png)
 
 ### *hyper params*
 |   *Parameter*   | *Value*  |
@@ -30,11 +30,30 @@ Total params: 61750
 |  *batch_size*   |   *64*   |
 | *learning_rate* | *0.0005* |
 
+<table width="100%">
+  <tr>
+    <th width="60%">Parameter</th>
+    <th width="40%">Value</th>
+  </tr>
+  <tr>
+    <td>max_steps</td>
+    <td>5000</td>
+  </tr>
+  <tr>
+    <td>batch_size</td>
+    <td>64</td>
+  </tr>
+  <tr>
+    <td>learning_rate</td>
+    <td>0.0005</td>
+  </tr>
+</table>
+
 ### *loss&accuracy*
 | *1000 Steps*     | *5000 Steps*     |
 |:----------------:|:----------------:|
-| ![](./img/5.png) | ![](./img/3.png) |
-| ![](./img/6.png) | ![](./img/4.png) |
+| ![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/5.png) | ![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/3.png) |
+| ![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/6.png) | ![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/4.png) |
 
 ### *predict*
 ```
@@ -48,5 +67,5 @@ model_step5000.npz       0.8612
 ```
 
 ### *confusion matrices*
-![](./img/7.png)
+![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/7.png)
 

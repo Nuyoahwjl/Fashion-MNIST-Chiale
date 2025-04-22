@@ -30,25 +30,6 @@ Total params: 61750
 |  *batch_size*   |   *64*   |
 | *learning_rate* | *0.0005* |
 
-<table width="100%">
-  <tr>
-    <th width="60%">Parameter</th>
-    <th width="40%">Value</th>
-  </tr>
-  <tr>
-    <td>max_steps</td>
-    <td>5000</td>
-  </tr>
-  <tr>
-    <td>batch_size</td>
-    <td>64</td>
-  </tr>
-  <tr>
-    <td>learning_rate</td>
-    <td>0.0005</td>
-  </tr>
-</table>
-
 ### *loss&accuracy*
 | *1000 Steps*     | *5000 Steps*     |
 |:----------------:|:----------------:|

@@ -3,7 +3,7 @@
 ### *model(LeNet)*
 ```
 Layer (type)         Output Shape         Param #
-===================================================
+==================================================
 Conv2D               (6, 28, 28)          156
 BatchNorm            (6, 28, 28)          12
 ReLU                 (6, 28, 28)          0
@@ -17,18 +17,21 @@ ReLU                 (120,)               0
 FullyConnected       (84,)                10164
 ReLU                 (84,)                0
 FullyConnected       (10,)                850
-===================================================
+==================================================
 Total params: 61750
 ```
 ![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/1.png)
 ![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/2.png)
 
 ### *hyper params*
-|   *Parameter*   | *Value*  |
-| :-------------: | :------: |
-|   *max_steps*   |  *5000*  |
-|  *batch_size*   |   *64*   |
-| *learning_rate* | *0.0005* |
+
+``` 
+model               accuracy
+============================
+max_steps            5000
+batch_size           64
+learning_rate        0.0005
+```
 
 ### *loss&accuracy*
 | *1000 Steps*     | *5000 Steps*     |

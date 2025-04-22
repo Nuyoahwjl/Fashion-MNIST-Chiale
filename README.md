@@ -26,8 +26,8 @@ Total params: 61750
 ### *hyper params*
 
 ``` 
-model               accuracy
-============================
+Parameter            Value 
+===========================
 max_steps            5000
 batch_size           64
 learning_rate        0.0005

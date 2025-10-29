@@ -1,4 +1,4 @@
-# 🧠 Fashion-MNIST Classification with Hand-Crafted CNN
+# Fashion-MNIST Classification with Hand-Crafted CNN
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/) [![Accuracy](https://img.shields.io/badge/Max_Accuracy-86.12%25-brightgreen.svg)](#results) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset](https://img.shields.io/badge/Dataset-Fashion--MNIST-orange.svg)](https://github.com/zalandoresearch/fashion-mnist)
 

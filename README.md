@@ -43,11 +43,13 @@ Total params: 61750
 
 
 ## ⚙️ Training Hyperparameters
+```
 | Parameter         | Value    |
 |-------------------|----------|
 | max_steps         | 5000     |
 | batch_size        | 64       |
 | learning_rate     | 0.0005   |
+```
 
 
 ## 📊 Results
@@ -62,6 +64,7 @@ Training curves for 1000 steps and 5000 steps (smoothed for clarity):
 
 
 ### Test Accuracy by Training Steps
+```
 | Model               | Accuracy |
 |---------------------|----------|
 | model_step1000.npz  | 0.8016   |
@@ -69,6 +72,7 @@ Training curves for 1000 steps and 5000 steps (smoothed for clarity):
 | model_step3000.npz  | 0.8462   |
 | model_step4000.npz  | 0.8534   |
 | model_step5000.npz  | 0.8612   |
+```
 
 
 ### Confusion Matrix

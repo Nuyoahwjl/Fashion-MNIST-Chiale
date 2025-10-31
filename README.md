@@ -84,8 +84,14 @@ Confusion matrix for the final model (5000 steps) showing class-wise performance
 ## 🚀 Usage
 
 ### Prerequisites
+Install the required dependencies:
 ```bash
-pip install numpy matplotlib scikit-learn prettytable
+pip install -r requirements.txt
+```
+
+Or install manually:
+```bash
+pip install numpy matplotlib scikit-learn prettytable pandas
 ```
 
 ### Training
@@ -111,6 +117,12 @@ Plot training loss and accuracy curves using:
 python plot.py
 ```
 
+### Interactive Demo
+Explore the interactive Jupyter notebook for a hands-on demonstration:
+```bash
+jupyter notebook demo.ipynb
+```
+
 
 ## 📁 Project Structure
 ```
@@ -120,6 +132,9 @@ Fashion-MNIST-Chiale/
 ├── predict.py         # Prediction and evaluation
 ├── plot.py            # Visualization of training curves
 ├── data_loader.py     # Fashion-MNIST data loading
+├── demo.ipynb         # Interactive Jupyter notebook demo
+├── requirements.txt   # Python dependencies
+├── LICENSE            # MIT License
 ├── data/              # Dataset directory (Fashion-MNIST files)
 ├── models/            # Saved model checkpoints
 ├── logs/              # Training logs (loss, accuracy)
@@ -130,3 +145,20 @@ Fashion-MNIST-Chiale/
 ## 🙌 Acknowledgements
 - [Fashion-MNIST Dataset](https://github.com/zalandoresearch/fashion-mnist) for providing the benchmark data.
 - Inspired by the LeNet-5 architecture for image classification tasks.
+
+
+## 📝 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## 👤 Author
+**Nuyoahwjl**
+- GitHub: [@Nuyoahwjl](https://github.com/Nuyoahwjl)
+
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Nuyoahwjl/Fashion-MNIST-Chiale/issues).
+
+
+## ⭐ Show Your Support
+Give a ⭐️ if this project helped you learn about CNNs or deep learning fundamentals!

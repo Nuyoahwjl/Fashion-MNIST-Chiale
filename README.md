@@ -1,4 +1,4 @@
-# 👗 Fashion-MNIST Classification with Hand-Crafted CNN
+# Fashion-MNIST Classification with Hand-Crafted CNN
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![NumPy Only](https://img.shields.io/badge/NumPy-only-013243.svg?logo=numpy&logoColor=white)](https://numpy.org/)

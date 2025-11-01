@@ -1,20 +1,37 @@
-# Fashion-MNIST Classification with Hand-Crafted CNN
+# 👗 Fashion-MNIST Classification with Hand-Crafted CNN
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/) [![Accuracy](https://img.shields.io/badge/Max_Accuracy-86.12%25-brightgreen.svg)](#results) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset](https://img.shields.io/badge/Dataset-Fashion--MNIST-orange.svg)](https://github.com/zalandoresearch/fashion-mnist)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![NumPy Only](https://img.shields.io/badge/NumPy-only-013243.svg?logo=numpy&logoColor=white)](https://numpy.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626.svg?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Max Accuracy](https://img.shields.io/badge/Max_Accuracy-86.12%25-brightgreen.svg)](#-results)
+[![Open in Colab](https://img.shields.io/badge/Open%20in-Colab-FFCB2B.svg?logo=googlecolab&logoColor=000)](https://colab.research.google.com/github/Nuyoahwjl/Fashion-MNIST-Chiale/blob/main/demo.ipynb)
+[![License: MIT](https://img.shields.io/badge/License-MIT-0b7285.svg)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/Nuyoahwjl/Fashion-MNIST-Chiale?style=social)](https://github.com/Nuyoahwjl/Fashion-MNIST-Chiale/stargazers)
 
-A pure numpy-based convolutional neural network (CNN) implementation for classifying the Fashion-MNIST dataset, without using any deep learning frameworks. This project demonstrates the core principles of CNNs, including convolution, pooling, batch normalization, and backpropagation.
+A pure NumPy implementation of a convolutional neural network (CNN) for classifying the Fashion‑MNIST dataset—no deep learning frameworks required. This project demonstrates the core principles behind CNNs by building layers, forward/backward passes, and training loops from scratch.
 
+## 📚 Table of Contents
+- [Project Overview](#-project-overview)
+- [Key Features](#-key-features)
+- [Model Architecture](#-model-architecture-lenet-variant)
+- [Training Hyperparameters](#-training-hyperparameters)
+- [Results](#-results)
+- [Usage](#-usage)
+- [Project Structure](#-project-structure)
+- [Acknowledgements](#-acknowledgements)
+- [License](#-license)
+- [Author](#-author)
+- [Support](#-show-your-support)
 
 ## 📋 Project Overview
-Fashion-MNIST is a popular dataset consisting of 60,000 training images and 10,000 test images of 10 fashion categories. This project implements a LeNet-inspired CNN from scratch using only NumPy, achieving ~86% test accuracy after 5000 training steps.
-
+Fashion‑MNIST contains 60,000 training images and 10,000 test images across 10 fashion categories. This repository implements a LeNet‑inspired CNN using only NumPy, covering data loading, training, evaluation, and visualization to help you understand CNN fundamentals end‑to‑end.
 
 ## 🔍 Key Features
-- **Framework-Free**: Entirely built with NumPy, no TensorFlow/PyTorch or other ML frameworks.
-- **Complete Pipeline**: Includes data loading, model implementation, training, prediction, and visualization.
-- **Core CNN Components**: Implements Conv2D, BatchNorm, ReLU, MaxPool2D and FullyConnected layers.
-- **Training Utilities**: Logging, model saving/loading, and performance visualization.
-
+- 🧠 Framework‑Free: built entirely with NumPy—no TensorFlow/PyTorch.
+- 🧪 Complete Pipeline: data loading, training, evaluation, visualization.
+- 🧱 Core Layers: Conv2D, BatchNorm, ReLU, MaxPool2D, FullyConnected.
+- 🗂️ Utilities: logging, checkpointing, and performance plots.
+- 🧑‍🏫 Interactive: Jupyter notebook demo for exploration.
 
 ## 🧱 Model Architecture (LeNet Variant)
 The model follows a modified LeNet architecture with batch normalization for better performance:
@@ -37,10 +54,8 @@ FullyConnected       (10,)                850
 ==================================================
 Total params: 61750
 ```
-
 ![Model Architecture](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/1.png)
 ![Layer Visualization](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/2.png)
-
 
 ## ⚙️ Training Hyperparameters
 ```
@@ -50,7 +65,6 @@ Total params: 61750
 | batch_size        | 64       |
 | learning_rate     | 0.0005   |
 ```
-
 
 ## 📊 Results
 
@@ -62,7 +76,6 @@ Training curves for 1000 steps and 5000 steps (smoothed for clarity):
 | ![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/5.png) | ![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/3.png) |
 | ![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/6.png) | ![](https://cdn.jsdelivr.net/gh/Nuyoahwjl/Fashion-MNIST-Chiale/img/4.png) |
 
-
 ### Test Accuracy by Training Steps
 ```
 | Model               | Accuracy |
@@ -73,7 +86,6 @@ Training curves for 1000 steps and 5000 steps (smoothed for clarity):
 | model_step4000.npz  | 0.8534   |
 | model_step5000.npz  | 0.8612   |
 ```
-
 
 ### Confusion Matrix
 Confusion matrix for the final model (5000 steps) showing class-wise performance:
@@ -88,12 +100,10 @@ Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
 Or install manually:
 ```bash
 pip install numpy matplotlib scikit-learn prettytable pandas
 ```
-
 ### Training
 Run the training script to train the model from scratch:
 ```bash
@@ -101,28 +111,23 @@ python train.py
 ```
 - Trained models are saved in the `models/` directory every 1000 steps.
 - Training logs (loss, accuracy) are saved in the `logs/` directory.
-
-
 ### Prediction & Evaluation
 Run the prediction script to evaluate trained models on test data:
 ```bash
 python predict.py
 ```
 - Generates confusion matrices and prints test accuracy for each saved model.
-
-
 ### Visualization
 Plot training loss and accuracy curves using:
 ```bash
 python plot.py
 ```
-
 ### Interactive Demo
 Explore the interactive Jupyter notebook for a hands-on demonstration:
 ```bash
 jupyter notebook demo.ipynb
 ```
-
+Or click “Open in Colab” badge above.
 
 ## 📁 Project Structure
 ```
@@ -141,24 +146,17 @@ Fashion-MNIST-Chiale/
 └── img/               # Visualization images
 ```
 
-
 ## 🙌 Acknowledgements
 - [Fashion-MNIST Dataset](https://github.com/zalandoresearch/fashion-mnist) for providing the benchmark data.
 - Inspired by the LeNet-5 architecture for image classification tasks.
 
-
 ## 📝 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 ## 👤 Author
 **Nuyoahwjl**
 - GitHub: [@Nuyoahwjl](https://github.com/Nuyoahwjl)
 
-
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Nuyoahwjl/Fashion-MNIST-Chiale/issues).
-
-
 ## ⭐ Show Your Support
 Give a ⭐️ if this project helped you learn about CNNs or deep learning fundamentals!
+

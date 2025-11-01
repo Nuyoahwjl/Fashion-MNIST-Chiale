@@ -114,7 +114,6 @@ Explore the interactive Jupyter notebook for a hands-on demonstration:
 ```bash
 jupyter notebook demo.ipynb
 ```
-Or click “Open in Colab” badge above.
 
 ## 📁 Project Structure
 ```
@@ -141,8 +140,7 @@ Fashion-MNIST-Chiale/
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
-**Nuyoahwjl**
-- GitHub: [@Nuyoahwjl](https://github.com/Nuyoahwjl)
+Github: [@Nuyoahwjl](https://github.com/Nuyoahwjl)
 
 ## ⭐ Show Your Support
 Give a ⭐️ if this project helped you learn about CNNs or deep learning fundamentals!

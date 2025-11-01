@@ -10,19 +10,6 @@
 
 A pure NumPy implementation of a convolutional neural network (CNN) for classifying the Fashion‑MNIST dataset—no deep learning frameworks required. This project demonstrates the core principles behind CNNs by building layers, forward/backward passes, and training loops from scratch.
 
-## 📚 Table of Contents
-- [Project Overview](#-project-overview)
-- [Key Features](#-key-features)
-- [Model Architecture](#-model-architecture-lenet-variant)
-- [Training Hyperparameters](#-training-hyperparameters)
-- [Results](#-results)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Acknowledgements](#-acknowledgements)
-- [License](#-license)
-- [Author](#-author)
-- [Support](#-show-your-support)
-
 ## 📋 Project Overview
 Fashion‑MNIST contains 60,000 training images and 10,000 test images across 10 fashion categories. This repository implements a LeNet‑inspired CNN using only NumPy, covering data loading, training, evaluation, and visualization to help you understand CNN fundamentals end‑to‑end.
 
